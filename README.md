@@ -245,14 +245,22 @@ Recommended precautions:
 ## 8. Project Structure
 
 
-    nmap-internship/
-    |--README.md
-    |--reports/
-    |  |--basic_scan.txt
-    |  |--service_version_scan.txt
+   nmap-internship/
+    ├── README.md
+    ├── reports/
+    │   ├── basic_scan.txt
+    │   ├── service_version_scan.txt
+    │   ├── os_detection_scan.txt
+    │   ├── test_service_scan.txt
+    │   └── nmap_scan_results.txt
+    └── screenshots/
+        ├── 01-basic-scan.png
+        ├── 02-service-version-scan.png
+        ├── 03-os-detection.png
+        └── 04-test-service-scan.png
 
 
-cat > README.md <<'EOF'
+
 # Basic Network Scanning with Nmap
 
 ## Internship Task 1 - Cybersecurity
